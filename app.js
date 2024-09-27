@@ -2,7 +2,7 @@ import mongoose from "mongoose"
 import express from "express"
 import dotenv from "dotenv"
 import cors from "cors";
-import {test} from "./Backend/controllers/alumnos.controller.js"
+import {test} from "../Backend/controllers/alumnos.controller.js"
 
 //para activar el archivo env para la base de datos 
 dotenv.config();
